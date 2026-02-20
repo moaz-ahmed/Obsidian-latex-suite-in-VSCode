@@ -32,8 +32,8 @@ The following are a bunch of examples of what doesn't work :
 
 ### Future Plans 
 
--[ ] Figure out if auto fractions are even possible 
--[ ] Tabbing out behaviour implementation ? 
+- [ ] Figure out if auto fractions are even possible 
+- [ ] Tabbing out behaviour implementation ? 
 
 
 ### Acknowledgments

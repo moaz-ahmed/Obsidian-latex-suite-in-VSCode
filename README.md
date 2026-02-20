@@ -4,9 +4,9 @@ A (partial) migration of [Obsidian Latex suite](https://github.com/artisticat1/o
 
  ### Note 
 
- Working with latex in VS Code requires a tex compiler , a great extension to help with that is (**Latex Workshop**)[https://github.com/James-Yu/LaTeX-Workshop]. Make sure to install it first ! 
+ Working with latex in VS Code requires a tex compiler , a great extension to help with that is [**Latex Workshop**](https://github.com/James-Yu/LaTeX-Workshop). Make sure to install it first ! 
 
-You also have to install the (hypersnips extension)[https://marketplace.visualstudio.com/items?itemName=draivin.hsnips]
+You also have to install the [hypersnips extension](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips)
 
 ## Usage 
 

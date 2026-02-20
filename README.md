@@ -1,34 +1,43 @@
-# Obsidian-latex-suite-in-VSCode
+## Obsidian LaTeX Suite — VS Code port
 
-A (partial) migration of [Obsidian Latex suite](https://github.com/artisticat1/obsidian-latex-suite) snippets into VSCode using the Hypersnips extension
+A minimal, partial port of the Obsidian LaTeX Suite snippets to Visual Studio Code using the HyperSnips extension. Simple, single-trigger snippets work. Fancy stuff that rely on Tab stops, multi-stage placeholders, or advanced Obsidian features doesn't.
 
- ### Note 
+### Features
 
- Working with latex in VS Code requires a tex compiler , a great extension to help with that is [**Latex Workshop**](https://github.com/James-Yu/LaTeX-Workshop). Make sure to install it first ! 
+- Core LaTeX snippets (environment wrappers, common math macros, Greek letters, arrows, fractions as single-trigger inserts).
 
-You also have to install the [hypersnips extension](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips)
+### Requirements
 
-## Usage 
+- VS Code
+- A TeX toolchain (pdflatex, xelatex, lualatex, etc.). Recommended extension: **LaTeX Workshop** — https://github.com/James-Yu/LaTeX-Workshop
+- HyperSnips extension — https://marketplace.visualstudio.com/items?itemName=draivin.hsnips
 
-1. Press `shift+cmd+space` to type in some commands to VS Code.
-2. Type `>HyperSnips: Open Snippets Directory`
-3. Paste the `latex.hsnips` file in that directory
-4.  Return to VS Code and press `shift+cmd+space` again
-5.  Type `>HyperSnips : Reload Directory`
-6.  Voila ! Your snippet file is now (partially) working
+### Installation
 
---- 
+1. Install LaTeX Workshop and HyperSnips in VS Code.
+2. Press `Shift+Cmd+P`  and run: `> HyperSnips: Open Snippets Directory`
+3. Copy `latex.hsnips` into the opened directory.
+4. In VS Code again run: `> HyperSnips: Reload Snippets`
+5. Snippets are now available 
 
-## Limitations 
+### Limitations
 
-- Quick Fractions shortcut `/` doesn't work.
+The following are a bunch of examples of what doesn't work :
 
-- Haven't fully tested it yet  
+- Tab-stop navigation / multi-stage placeholder chaining
+- Visual snippets that require selection-based transforms (underbrace, overbrace, etc.)
+- Conceal features
+- Auto-generated matrix entry/tabbing
+- Any snippet behavior that depends on Obsidian’s Tab mechanics
+
+### Future Plans 
+
+-[ ] Figure out if auto fractions are even possible 
+-[ ] Tabbing out behaviour implementation ? 
 
 
+### Acknowledgments
+Thanks to Sleepmalc’s repo for guidance: https://github.com/sleepymalc/VSCode-LaTeX-Inkscape
 
-## Acknowledgments 
-
-Sleepmalc's [repo](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape) was very helpful in creating this   
-   
+ 
 

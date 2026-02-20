@@ -23,7 +23,7 @@ You also have to install the (hypersnips extension)[https://marketplace.visualst
 
 - Quick Fractions shortcut `/` doesn't work.
 
-Haven't fully tested it yet  
+- Haven't fully tested it yet  
 
 
 
